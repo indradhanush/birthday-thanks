@@ -24,7 +24,7 @@ THANKYOU = [
     "Thanks for your wishes!! :)"
 ]
 
-regex = re.compile(".*h+a*pi*y*e*(.*b([irthday]|['.]|(u*(d+(a+e+|a+y+|y+))))|(.*return(s|'s)))")
+regex = re.compile(".*h+a*p+i*y*e*(.*b([irthday]|['.]|(u*(d+(a+e+|a+y+|y+))))|(.*return(s|'s)))")
 
 
 def get_wishes(START_TIME, END_TIME):
