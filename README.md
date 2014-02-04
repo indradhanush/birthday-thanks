@@ -1,8 +1,7 @@
 Birthday Thanks
 ===============
 
-Reply to all Facebook Birthday Wishes!
-
+Automate replies to all birthday wishes on facebook.
 
 ##Installation##
 
