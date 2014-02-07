@@ -13,7 +13,11 @@ Automate replies to all birthday wishes on facebook.
 
 ##Usage##
 
-* Get a valid Access Token from facebook.com
+* Get a valid Access Token from (here)[https://developers.facebook.com/tools/explorer/145634995501895/?method=GET&path=794489451%3Ffields%3Did%2Cname] and make sure you grant the following permissions:
+  * read_stream
+  * publish_stream
+  * read_insights
+
 * Put it in ACCESS_TOKEN
 * Put your full name in NAME. Note this must be same as the name in your facebook account.
 * Put the START_TIME and END_TIME in seconds since epoch. See: http://www.epochconverter.com
