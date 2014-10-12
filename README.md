@@ -21,7 +21,5 @@ Automate replies to all birthday wishes on facebook.
 * Put it in ACCESS_TOKEN
 * Put your full name in NAME. Note this must be same as the name in your facebook account.
 * Put the START_TIME and END_TIME in seconds since epoch. See: http://www.epochconverter.com
-* Run the following command:
-
-    python thanks_bot.py
+* Run the following command: `python thanks_bot.py`
 * Enjoy the magic! :)
