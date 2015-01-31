@@ -13,13 +13,13 @@ Automate replies to all birthday wishes on facebook.
 
 ##Usage##
 
-* Get a valid Access Token from (here)[https://developers.facebook.com/tools/explorer/145634995501895/?method=GET&path=794489451%3Ffields%3Did%2Cname] and make sure you grant the following permissions:
-  * read_stream
-  * publish_stream
-  * read_insights
+* Get a valid Access Token from [here](https://developers.facebook.com/tools/explorer/145634995501895/?method=GET&path=794489451%3Ffields%3Did%2Cname) and make sure you grant the following permissions:
+  * `read_stream`
+  * `read_insights`
+  * `publish_actions`
 
-* Put it in ACCESS_TOKEN
-* Put your full name in NAME. Note this must be same as the name in your facebook account.
-* Put the START_TIME and END_TIME in seconds since epoch. See: http://www.epochconverter.com
+* Put it in `ACCESS_TOKEN`
+* Put your full name in `NAME`. Note this must be same as the name in your facebook account.
+* Put the `START_TIME` and `END_TIME` in seconds since epoch. See: http://www.epochconverter.com
 * Run the following command: `python thanks_bot.py`
-* Enjoy the magic! :)
+* Be patient and enjoy the magic! :)
